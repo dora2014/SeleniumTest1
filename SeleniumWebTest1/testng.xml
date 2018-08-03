@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Banking">
+  <test thread-count="1" name="Bank System">
+    <classes>  
+      <class name="testNG.BasicTestNGSample">
+      	<methods>
+      		<include name ="Demo"/>
+      		
+      	</methods>
+      
+      </class>  
+      <class name="testNG.BankSystem"/>   
+    </classes> 
+  </test> <!-- Test -->
+  
+  <test name="GenLoans">
+  	<classes>
+  		<class name="testNG.Loans"/>
+  	
+  	</classes>
+  </test>
+  
+</suite> <!-- Suite -->

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Banking" duration-ms="325" started-at="2018-06-15T17:55:26Z" finished-at="2018-06-15T17:55:27Z">
+    <groups>
+    </groups>
+    <test name="Bank System" duration-ms="147" started-at="2018-06-15T17:55:26Z" finished-at="2018-06-15T17:55:27Z">
+      <class name="testNG.BankSystem">
+        <test-method status="PASS" signature="customerLogin()[pri:0, instance:testNG.BankSystem@20e2cbe0]" name="customerLogin" duration-ms="6" started-at="2018-06-15T17:55:27Z" finished-at="2018-06-15T17:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerLogin -->
+      </class> <!-- testNG.BankSystem -->
+      <class name="testNG.BasicTestNGSample">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:testNG.BasicTestNGSample@7c16905e]" name="Demo" duration-ms="37" started-at="2018-06-15T17:55:26Z" finished-at="2018-06-15T17:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- testNG.BasicTestNGSample -->
+    </test> <!-- Bank System -->
+    <test name="GenLoans" duration-ms="82" started-at="2018-06-15T17:55:27Z" finished-at="2018-06-15T17:55:27Z">
+      <class name="testNG.Loans">
+        <test-method status="PASS" signature="APILoan()[pri:0, instance:testNG.Loans@3532ec19]" name="APILoan" duration-ms="12" started-at="2018-06-15T17:55:27Z" finished-at="2018-06-15T17:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoan -->
+        <test-method status="PASS" signature="MobileLoan()[pri:0, instance:testNG.Loans@3532ec19]" name="MobileLoan" duration-ms="4" started-at="2018-06-15T17:55:27Z" finished-at="2018-06-15T17:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoan -->
+        <test-method status="PASS" signature="WebLoan()[pri:0, instance:testNG.Loans@3532ec19]" name="WebLoan" duration-ms="15" started-at="2018-06-15T17:55:27Z" finished-at="2018-06-15T17:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoan -->
+      </class> <!-- testNG.Loans -->
+    </test> <!-- GenLoans -->
+  </suite> <!-- Banking -->
+</testng-results>
